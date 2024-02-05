@@ -1,0 +1,773 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#home{
+    height: auto;
+}
+
+.header{
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 10px;
+    background-color: antiquewhite;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.menu ul{
+    display: flex;
+}
+
+.menu ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+
+}
+
+
+.menu ul li a:hover{
+    background-color: orangered;
+    text-decoration: underline;
+    transition: .3s ease-in;
+    color: white;
+    border-radius: 3px;
+    padding: 3px;
+
+}
+
+/*   end of header   */
+
+.content{
+    height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-image: url(images/banner-bg.png);
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.left{
+    height: 50vh;
+    width: 600px;
+    margin: 20px;
+    text-align: left;
+}
+
+.left h1{
+    font-size: 52px;
+}
+
+.btn button{
+    background-color: rgb(54, 48, 48);;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    width: 150px;
+    border-radius: 5px;
+    border: none;
+}
+
+.right{
+    height: auto;
+    width: 500px;
+    margin: 20px;
+}
+
+/*  end of content */
+
+/*      <!--end of home-->   */
+
+#products{
+    height: auto;
+    margin-top: 20px;
+    height: auto;
+}
+ 
+.title{
+    height: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.boxes{
+    margin-top: 10px;
+    height: auto;
+}
+
+.pro1{
+    height: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.box{
+    border: 1px solid black;
+    height: auto;
+    width: 260px;
+    margin: 10px;
+    text-align: center;
+}
+
+.box img{
+    height: 300px;
+    margin-top: 10px;
+}
+
+.bottom{
+    height: auto;
+    background-color: rgb(54, 48, 48);;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.bottom button{
+    padding: 3px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+
+.bottom button:hover{
+    background-color: antiquewhite;
+}
+
+.more{
+    margin: 20px;
+    height: auto;
+    text-align: center;
+}
+
+.more button{
+    width: 150px;
+    padding: 15px;
+    background-color: rgb(54, 48, 48);;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+/*    end of products  */
+
+#About{
+    height: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: antiquewhite;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+
+}
+
+.message{
+     width: 400px;
+     height: auto;
+     text-align: left;
+}
+
+.message h1{
+    font-size: 32px;
+}
+
+.message p{
+    padding-top: 10px;
+}
+
+.message button{
+    width: 150px;
+    padding: 15px;
+    background-color: rgb(54, 48, 48);;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-top: 20px;
+}
+.image{
+    margin-top: 30px;
+     width: 300px;
+     height: auto;
+}
+
+.image img{
+    height: 300px;
+    width: 300px;
+}
+
+/*  end of about */
+
+#client{
+    height: auto;
+    margin: 20px;
+    background-color: antiquewhite;
+}
+
+.heading{
+    text-align: center;
+}
+
+.heading h1{
+    font-size: 32px;
+}
+
+.sms{
+    height: auto;
+    margin: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.info{
+    height: auto;
+    width: 700px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    box-shadow: 2px 2px 2px 2px;
+
+
+}
+
+
+.infor{
+    margin: 40px;
+}
+
+
+.infor h1{
+    font-size: 26px;
+}
+
+/*    end of client  */
+
+#contact{
+    height: auto;
+    margin-top: 80px;
+}
+
+#contact h1{
+    font-size: 32px;
+    margin-left: 88px;
+}
+
+.center{
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.center .boxing{
+    margin-top: 30px;
+    margin-left: 20px;
+    height: auto;
+    width: 400px;
+    display: flex;
+}
+
+
+
+
+.center .boxing1{
+    margin-top: 30px;
+    height: 50px;
+    width: 300px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.center .boxing1 button{
+    width: 150px;
+    padding: 15px;
+    background-color: rgb(54, 48, 48);;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.center .boxing2{
+    margin-top: 30px;
+    height: 50px;
+    width: 400px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.center .boxing2 button{
+    width: 150px;
+    padding: 15px;
+    background-color: rgba(245, 214, 173, 0.954);
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+/*  end of contact  */
+footer{
+    height: auto;
+    margin-top: 20px;
+    background-color: rgb(54, 48, 48);
+    color: white;
+}
+footer .chini{
+    height: auto;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.chin1{
+    height: auto;
+    margin: 20px;
+    width: 300px;
+    text-align: left;
+}
+
+.chin2{
+    height: auto;
+    margin: 20px;
+    width: 500px;
+}
+
+.chin3{
+    height: auto;
+    margin: 20px;
+    width: 300px;
+    text-align: left;
+}
+
+.chinikabisa{
+    background-color: antiquewhite;
+    color: black;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+/*   end of footer */
+
+@media only screen and (max-width: 600px){
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+    
+    
+#home{
+    height: auto;
+    margin-top: 20px;
+}
+
+.header{
+    background-color: antiquewhite;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.menu{
+    display: none;
+}
+.menu ul{
+    display: flex;
+}
+
+.menu ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+
+}
+
+/*   end of header n   */
+
+.content{
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-image: url(images/banner-bg.png);
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.left{
+    height: 50vh;
+    width: 300px;
+    margin: 20px;
+    text-align: left;
+}
+
+.left h1{
+    font-size: 52px;
+}
+
+.btn button{
+    background-color: rgb(54, 48, 48);;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    width: 150px;
+    border-radius: 5px;
+    border: none;
+}
+
+.right{
+    height: auto;
+    width: 300px;
+    margin: 20px;
+}
+
+/*  end of content */
+
+/*      <!--end of home-->   */
+
+#products{
+    height: auto;
+    margin-top: 20px;
+    height: auto;
+}
+ 
+.title{
+    height: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.boxes{
+    margin-top: 10px;
+    height: auto;
+}
+
+.pro1{
+    height: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.box{
+    border: 1px solid black;
+    height: auto;
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+}
+
+.box img{
+    height: 300px;
+    margin-top: 10px;
+}
+
+.bottom{
+    height: auto;
+    background-color: rgb(54, 48, 48);;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.bottom button{
+    padding: 3px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+
+.bottom button:hover{
+    background-color: antiquewhite;
+}
+
+.more{
+    margin: 20px;
+    height: auto;
+    text-align: center;
+}
+
+.more button{
+    width: 150px;
+    padding: 15px;
+    background-color: rgb(54, 48, 48);;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+/*    end of products  */
+
+#About{
+    height: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: antiquewhite;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+
+}
+
+.message{
+     width: 400px;
+     margin-left: 20px;
+     height: auto;
+     text-align: left;
+}
+
+.message h1{
+    font-size: 22px;
+}
+
+.message p{
+    margin-top: 20px;
+}
+.message button{
+    width: 150px;
+    padding: 15px;
+    background-color: rgb(54, 48, 48);;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-top: 20px;
+}
+.image{
+    margin-top: 30px;
+     width: 300px;
+     height: auto;
+}
+
+.image img{
+    height: 300px;
+    width: 300px;
+}
+
+/*  end of about */
+
+#client{
+    height: auto;
+    margin: 20px;
+    background-color: antiquewhite;
+}
+
+.heading{
+    text-align: center;
+}
+
+.heading h1{
+    font-size: 22px;
+}
+
+.sms{
+    height: auto;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.info{
+    height: auto;
+    width:  auto;
+    display: flex;
+    padding-bottom: 20px;
+    flex-direction: column;
+    
+
+
+}
+
+
+.infor{
+    margin-top: 40px;
+}
+
+
+.infor h1{
+    font-size: 26px;
+}
+
+/*    end of client  */
+
+#contact{
+    height: auto;
+    margin-top: 20px;
+}
+
+#contact h1{
+    font-size: 32px;
+    margin-left: 20px;
+}
+
+.center{
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.center .boxing{
+    margin-top: 30px;
+    margin-left: 20px;
+    height: auto;
+    width: 350px;
+    display: flex;
+}
+
+
+.center .boxing1{
+    margin-top: 30px;
+    height: 50px;
+    width: 300px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.center .boxing1 button{
+    width: 150px;
+    padding: 15px;
+    background-color: rgb(54, 48, 48);;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.center .boxing2{
+    margin-top: 30px;
+    height: 50px;
+    width: 400px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.center .boxing2 button{
+    width: 150px;
+    padding: 15px;
+    background-color: rgba(245, 214, 173, 0.954);
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+/*  end of contact  */
+footer{
+    height: auto;
+    margin-top: 20px;
+    background-color: rgb(54, 48, 48);
+    color: white;
+}
+footer .chini{
+    height: auto;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+footer .chini h1{
+    font-size: 22px;
+}
+
+.chin1{
+    height: auto;
+    margin: 20px;
+    width: 300px;
+    text-align: left;
+}
+
+.chin2{
+    height: auto;
+    margin: 20px;
+    width: 500px;
+    text-align: left;
+}
+
+.chin3{
+    height: auto;
+    margin: 20px;
+    width: 300px;
+    text-align: left;
+}
+
+.chinikabisa{
+    background-color: antiquewhite;
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+/*   end of footer */
+
+}
